@@ -12,7 +12,6 @@ import StyledPicture from "./components/StyledPicture";
 import Wrapper from "./components/Wrapper";
 import Img from "./components/Img";
 import Section from "./components/Section";
-import Tablist from "./components/Tablist";
 import GatsbyWrapper from "./components/GatsbyWrapper";
 import Tabs from "./components/Tabs";
 

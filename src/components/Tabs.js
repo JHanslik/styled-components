@@ -9,9 +9,9 @@ const Tab = styled.div`
     cursor: pointer;
     color: ${(props) => (props.active ? "#333" : "#999")};
 `;
-const TabPanel = styled.div`
-    display: ${(props) => (props.active ? "block" : "none")};
-`;
+// const TabPanel = styled.div`
+//     display: ${(props) => (props.active ? "block" : "none")};
+// `;
 
 const Tabs = ({ tabs, children }) => {
     const [activeTab, setActiveTab] = useState(tabs[0]);
